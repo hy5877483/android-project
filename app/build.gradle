@@ -4,7 +4,10 @@ plugins {
 
 android {
     compileSdk 32
-
+    task wrapper(type: Wrapper) {
+        gradleVersion = '7.0'
+    }
+    tasks.register("prepareKotlinBuildScriptModel"){}
     defaultConfig {
         applicationId "com.example.barcodescanner"
         minSdk 21
