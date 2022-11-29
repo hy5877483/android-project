@@ -1,4 +1,4 @@
-package com.cookandroid.zzickmuck;
+package com.example.barcodescanner;
 
 import android.app.Activity;
 import android.app.Dialog;

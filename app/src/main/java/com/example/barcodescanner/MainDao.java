@@ -1,4 +1,4 @@
-package com.cookandroid.zzickmuck;
+package com.example.barcodescanner;
 import androidx.room.Dao;
 import androidx.room.Delete;
 import androidx.room.Insert;

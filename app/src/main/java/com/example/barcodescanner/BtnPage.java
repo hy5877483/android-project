@@ -6,12 +6,12 @@ import android.widget.Button;
 
 import androidx.appcompat.app.AppCompatActivity;
 
-public class MainActivity extends AppCompatActivity {
+public class BtnPage extends AppCompatActivity {
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_main);
+        setContentView(R.layout.btnpage);
 
         Button moveButton=findViewById(R.id.cameraBtn);
         moveButton.setOnClickListener(new View.OnClickListener() {
